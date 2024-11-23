@@ -87,14 +87,48 @@
 
 // // example3
 
+// const students = [
+//     { name: "Alice", score: 85 },
+//     { name: "Bob", score: 72 },
+//     { name: "Charlie", score: 90 },
+//     { name: "David", score: 65 },
+//   ];
+//   students.sort((a, b) => {
+//     return b.score - a.score;
+//   });
+//   console.log(students);
+
+
+// 4.forEach( )
+// This method helps to loop over array by executing a provided callback function for each element in an array.
+
+// example1
+// const numbers = [1, 2, 3, 4];
+// numbers.forEach(num => console.log(num * 2));
+// console.log(numbers)
+
+// example2
+
+// const fruits = ['mango','apple','orange']
+// fruits.forEach((fruit) => {
+//     console.log(fruit)
+//     })
+
+// example3
 const students = [
     { name: "Alice", score: 85 },
     { name: "Bob", score: 72 },
     { name: "Charlie", score: 90 },
     { name: "David", score: 65 },
   ];
-  students.sort((a, b) => {
-    return b.score - a.score;
+  
+  students.forEach((student) => {
+    console.log("passed :",student.score >= 80) 
   });
-  console.log(students);
+  
+ 
+
+
+
+
 
