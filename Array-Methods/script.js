@@ -52,6 +52,10 @@
 
 // console.log(evenArr)
 
+
+
+// // example2
+
 // const students = [
 //     { name: "Alice", score: 85 },
 //     { name: "Bob", score: 72 },
@@ -62,3 +66,35 @@
 //         return student.score >= 80
 //     })
 //     console.log(passedStudents)
+
+
+// 3. sort( )
+// This method is used to arrange/sort array’s elements either in ascending or descending order.
+
+// example1
+// const arr = [9,4,7,10,5,8,2]
+// const sortedArr = arr.sort((a,b) => {
+//         return a - b
+//     })
+//     console.log(sortedArr)
+
+
+// example2
+// const arr1 = [9,4,7,10,5,8,2]
+// arr1.sort();
+
+// console.log(arr1) 
+
+// // example3
+
+const students = [
+    { name: "Alice", score: 85 },
+    { name: "Bob", score: 72 },
+    { name: "Charlie", score: 90 },
+    { name: "David", score: 65 },
+  ];
+  students.sort((a, b) => {
+    return b.score - a.score;
+  });
+  console.log(students);
+
